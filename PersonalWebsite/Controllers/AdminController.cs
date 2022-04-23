@@ -24,5 +24,9 @@ namespace PersonalWebsite.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult NavigationPartial()
+        {
+            return PartialView();
+        }
     }
 }
