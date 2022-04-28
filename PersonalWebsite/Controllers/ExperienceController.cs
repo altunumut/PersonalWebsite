@@ -26,7 +26,7 @@ namespace PersonalWebsite.Controllers
         public IActionResult AddExperience(Experience experience)
         {
             experienceManager.TAdd(experience);
-            return View();
+            return RedirectToAction("Index");
         }
         public IActionResult DeleteExperience(int id)
         {
